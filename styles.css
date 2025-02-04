@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the navigation bar */
+nav {
+    background-color: gray; /* Background color */
+    padding: 10px 0;
+}
+
+/* Remove default list styles */
+.menu {
+    list-style-type: none; /* Remove bullet points */
+    display: flex; /* Make menu items appear in a row */
+    padding-left: 0;
+}
+
+/* Style the menu items */
+.menu li {
+    margin: 0;
+}
+
+/* Style the links */
+.menu li a {
+    display: block; /* Makes the entire area clickable */
+    text-decoration: none; /* Remove underline */
+    color: white; /* Text color */
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 20px;
+    background-color: gray; /* Default background */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover effect */
+.menu li a:hover {
+    background-color: black; /* Changes background on hover */
+}
